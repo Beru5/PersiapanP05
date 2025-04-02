@@ -9,6 +9,6 @@
 - Jika kita menggunakan thread, kita tidak dapat meng-extend class lain lagi karena java tidak memungkinkan inheritance ganda/lebih. Sementara jika kita menggunakan runnable, kita masih bisa meng-extend class lain karena masih ada slot untuk melakukan inheritance. Selain itu java tidak membatasi jumlah interface yang dapat digunakan, jadi selain runnable kita masih bisa menambahkan interface lain.
 
 ## 3. Thread.sleep() digunakan untuk?
-- Dengan menggunakan Thread Sleep, kita bisa membuat sebuah thread tertidur dan berhenti dalam waktu yang kita tentukan/
+- Dengan menggunakan Thread Sleep, kita bisa membuat sebuah thread tertidur dan berhenti dalam waktu yang kita tentukan.
 - Penting jika ingin membuat simulasi proses yang berjalan dalam waktu tertentu.
-- Misal jika kita meletakkan Thread.sleep(1000) pada loop 1 sampai 5, maka dari output 1 ke 2 membutuhkan 1 detik (1000 milisekon) untuk dioutputkan.
+- Misal jika kita meletakkan Thread.sleep(1000) pada loop 1 sampai 5, maka dari output 1 ke 2 akan dijeda 1 detik (1000 milisekon) sebelum dioutputkan.
